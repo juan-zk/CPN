@@ -1,0 +1,200 @@
+/* reglas fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&family=Lato:wght@400;700&display=swap');
+
+
+/* Estilos personalizados */
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+}
+section {
+    margin: auto;
+    height: 100VH;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+section h2 {
+    margin-bottom: 30px;
+}
+
+section p {
+    margin-bottom: 20px;
+}
+
+section form input[type="submit"] {
+    display: block;
+    width: 100%;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Estilos adicionales para Bootstrap */
+.navbar{
+    top: 0;
+    width: 100%;
+}
+.navs{
+    width: 100%;
+    display: flex;
+    align-items: right;
+    justify-content: flex-end;
+}
+.nav-link{
+    color: white;
+    height: 100%;
+}
+.nav-link:hover{
+    color: #ff5cff;
+    text-shadow:
+      0 0 7px #ff5cff,
+      0 0 10px #ff5cff,
+      0 0 21px #ff5cff,
+      0 0 42px #ff5cff,
+      0 0 82px #ff5cff,
+      0 0 92px #ff5cff,
+      0 0 102px #ff5cff,
+      0 0 151px #ff5cff;
+}
+.bx{
+    font-size: 1.2rem;
+    cursor: pointer;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;    
+}
+.bx:hover{
+  color: #ff5cff;
+    text-shadow:
+      0 0 7px #ff5cff,
+      0 0 10px #ff5cff,
+      0 0 21px #ff5cff,
+      0 0 42px #ff5cff,
+      0 0 82px #ff5cff,
+      0 0 92px #ff5cff,
+      0 0 102px #ff5cff,
+      0 0 151px #ff5cff;
+}
+.bx-active{
+    color: #ff5cff;
+    text-shadow:
+      0 0 7px #ff5cff,
+      0 0 10px #ff5cff,
+      0 0 21px #ff5cff,
+      0 0 42px #ff5cff,
+      0 0 82px #ff5cff,
+      0 0 92px #ff5cff,
+      0 0 102px #ff5cff,
+      0 0 151px #ff5cff;
+}
+
+.main-title{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 7rem;
+    line-height: 6rem;
+}
+.subtitle{
+    font-family: 'Alex Brush', cursive;
+    font-size: 3rem;
+    line-height: 1rem;
+    color: #fff8ff;
+    border: #ff5cff;
+    text-shadow:
+      0 0 7px #ff5cff,
+      0 0 10px #ff5cff,
+      0 0 21px #ff5cff,
+      0 0 42px #ff5cff,
+      0 0 82px #ff5cff,
+      0 0 92px #ff5cff,
+      0 0 102px #ff5cff,
+      0 0 151px #ff5cff;
+}
+
+.custom-btn {
+    margin: 20px;
+    border-radius: 0;    
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    width: 200px;
+    height: 40px;
+    font-weight: 500;
+    background: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    justify-content: center;
+  }
+
+.btn-neon {
+    color: #ff5cff;
+    border: 1px solid#ff5cff;
+    box-shadow: 0 0 5px #ff5cff, 0 0 5px #ff5cff inset;
+    z-index: 1;
+  }
+  .btn-neon:after {
+    position: absolute;
+    content: "";
+    width: 0;
+    height: 100%;
+    top: 0;
+    right: 0;
+    z-index: -1;
+    background: #ff5cff;
+    box-shadow:
+     0 0 20px  #ff5cff;
+    transition: all 0.3s ease;
+  }
+  .btn-neon:hover {
+    color: #fff;
+  }
+  .btn-neon:hover:after {
+    left: 0;
+    width: 100%;
+  }
+  .btn-neon:active {
+    top: 2px;
+  }
+
+  .section-title{
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #fff8ff;
+    text-shadow:
+      0 0 7px #ff5cff,
+      0 0 10px #ff5cff,
+      0 0 15px #ff5cff;
+  }
+  .text{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+#registro{
+    background-image: url(/pokerbgd-inv.jpg);
+    background-position: 0%;
+}
+#info{
+    background-image: url(/pokerbgd.jpg);
+}
+
+
+footer p {
+    margin: 0;
+}
