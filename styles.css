@@ -187,11 +187,11 @@ footer {
   }
 
 #registro{
-    background-image: url(/pokerbgd-inv.jpg);
+    background-image: url(src/pokerbgd-inv.jpg);
     background-position: 0%;
 }
 #info{
-    background-image: url(/pokerbgd.jpg);
+    background-image: url(src/pokerbgd.jpg);
 }
 
 
